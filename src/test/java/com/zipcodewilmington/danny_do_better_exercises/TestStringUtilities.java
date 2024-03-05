@@ -45,7 +45,7 @@ public class TestStringUtilities {
         String expected = "1 Java";
 
         // : When
-        String actual = StringUtilities.concatenation(one,two);
+        String actual = StringUtilities.concatenation(String.valueOf(one),two);
 
 
         // : Then
